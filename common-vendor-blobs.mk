@@ -21,7 +21,9 @@ PRODUCT_PACKAGES += \
     libsecion
 
 PRODUCT_COPY_FILES += \
-	$(LOCAL_PATH)/proprietary/sbin/cbd:sbin/cbd \
+    $(LOCAL_PATH)/proprietary/sbin/cbd:root/sbin/cbd
+
+PRODUCT_COPY_FILES += \
 	$(LOCAL_PATH)/proprietary/system/bin/bcm4334.hcd:system/bin/bcm4334.hcd \
 	$(LOCAL_PATH)/proprietary/system/bin/bcm4334_murata.hcd:system/bin/bcm4334_murata.hcd \
 	$(LOCAL_PATH)/proprietary/system/bin/bcm4334_semcosh.hcd:system/bin/bcm4334_semcosh.hcd \
