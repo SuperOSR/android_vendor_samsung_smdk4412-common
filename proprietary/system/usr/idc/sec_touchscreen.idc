@@ -13,16 +13,14 @@
 # limitations under the License.
 
 #
-# Emulator keyboard configuration file #2.
+# Input Device Configuration File for the Atmel Maxtouch touch screen.
+#
+# These calibration values are derived from empirical measurements
+# and may not be appropriate for use with other touch screens.
+# Refer to the input device configuration documentation for more details.
 #
 
+# Basic Parameters
 touch.deviceType = touchScreen
 touch.orientationAware = 1
 
-keyboard.layout = qwerty
-keyboard.characterMap = qwerty2
-keyboard.orientationAware = 1
-keyboard.builtIn = 1
-
-cursor.mode = navigation
-cursor.orientationAware = 1
